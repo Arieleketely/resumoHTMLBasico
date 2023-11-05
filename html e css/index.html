@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<!--atributo lag-->
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Chamar css externo-->
+    <link rel="stylesheet" href="css.css">
+    <title>Document</title>
+    <!--Texto e atributo div -  div.class-->
+    <!--id,class e style são atributos-->
+    <div class="texto">
+        <h1>Estudar e ouvir música:</h1>
+        <h2> uma combinação perfeita!</h2>
+
+        <p> Estudar pode ser uma tarefa árdua e cansativa, mas a boa notícia é que ouvir música pode tornar essa
+            atividade muito mais agradável e produtiva. <strong>A música pode ajudar a melhorar o humor, reduzir o
+                estresse e aumentar a concentração, o que pode levar a um melhor desempenho acadêmico.</strong></p>
+
+        <p>Além disso, a música pode ajudar a criar um ambiente propício para o aprendizado. Estudos mostram
+            que a música clássica, em particular, pode ajudar a melhorar a memória e a retenção de informações
+            Outros gêneros musicais, como o jazz e o lo-fi, também podem ser úteis para manter o foco e a concentração
+            durante o estudo.</p>
+
+        <p><mark>No entanto,</mark> é importante lembrar que nem todos os tipos de música são adequados para o estudo.
+            Músicas com letras podem ser distrações, pois podem exigir atenção adicional para processar as
+            palavras e a melodia simultaneamente. Portanto, é recomendável optar por músicas instrumentais ou com letras
+            em idiomas desconhecidos.</p>
+
+        <p> Em resumo, estudar e ouvir música podem ser uma combinação perfeita para tornar o aprendizado
+            mais agradável e produtivo. Então, da próxima vez que você se sentar para estudar, experimente colocar
+            sua música favorita e veja como isso pode ajudá-lo a se concentrar e a reter informações com mais
+            facilidade.</p>
+    </div>
+
+</head>
+<!--img:s
+    <img src="" alt="">-->
+<!--atributo alt para a imagem de clave de sol-->
+<img src="img/clavesSol.png" alt="ClaveSol">
+</head>
+
+<!--Listas-->
+<p>
+<h2>Instrumentos de corda:</h2>
+</p>
+
+<p>
+<ul>
+    <li>Violão</li>
+    <li>Violino</li>
+    <li>Cavaquinho</li>
+</ul>
+</p>
+<p>Instrumentos de percursão:</p>
+<ol>
+    <li>Bateria</li>
+    <li>Pandeiro</li>
+    <li>Tambor</li>
+</ol>
+<h3>Nossos preços:</h3>
+<table>
+    <tr>
+        <td>Instrumento</td>
+        <td>Valor da aula</td>
+    </tr>
+
+
+
+    <tr>
+        <td>Bateria</td>
+        <td>231,00</td>
+
+    </tr>
+
+    <tr>
+        <td>Pandeiro</td>
+        <td>134,90</td>
+
+    </tr>
+
+    <tr>
+        <td>Tambor</td>
+        <td>98,90</td>
+
+    </tr>
+
+</table>
+<!--Imagem com legenda-->
+<figure>
+    <img src="img/clavesSol.png" alt="musica">
+    <figcaption>Aqui aprende diversos instrumentos não importa a clave</figcaption>
+</figure>
+<!--Links-->
+
+<body>
+    <!--abrir links em outra aba-->
+    <a href="http:www.youtube.com/" target="_blank">YouTube 1 </a>
+    <!--abrir links na mesma aba-->
+    <a href="http:www.youtube.com/">YouTube 2 </a>
+
+    <!--formularios-->
+    <!--<form action="/pagina-processa-dados-do-form" method="post">-->
+    <form>
+        <div>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" />
+        </div>
+        <div>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" />
+        </div>
+        <div>
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" />
+        </div>
+        <div>
+            <label for="msg">Mensagem:</label>
+            <textarea id="msg"></textarea>
+        </div>
+        <div>
+            <label for="data">Data:</label>
+            <input type=”date” id="data">
+        </div>
+        <div>
+            <INPUT TYPE="checkbox" NAME="OPCAO" VALUE="op1"> opção1
+            <INPUT TYPE="checkbox" NAME="OPCAO" VALUE="op2"> opção2
+            <INPUT TYPE="checkbox" NAME="OPCAO" VALUE="op3"> opção3
+
+            <INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op1"> opção1
+            <INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op2"> opção2
+        </div>
+        <div>
+            <select name="role"><!--Pode se ter vários selects, e seu funcionamento se difere pelo nome-->
+                <option value="">Selecione uma opção</option>
+                <!--Este valor em branco e este texto vão ficar aparente quando formulário é aberto-->
+                <option value="auxiliar">Estagiário</option>
+                <option value="gerente">Gerente</option>
+                <option value="diretor">Diretor</option>
+                <option value="socio">Sócio</option>
+            </select>
+        </div>
+    </form>
+</body>
+
+</html>
